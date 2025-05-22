@@ -23,7 +23,7 @@ io.on('connection', (socket) => {
     console.log('User disconnected');
   });
 });
-
+//request made for each message
 app.post('/send', (req, res) => {
   const message = req.body.message;
   console.log('Received message:', message);
