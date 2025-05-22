@@ -46,7 +46,7 @@ function App() {
       socket.off('pushnotification');
     };
   }, []);
-
+//returning message notification for every index
   return (
     <div className="App">
       <h1>Push Notifications</h1>
